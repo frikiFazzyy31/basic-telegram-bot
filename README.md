@@ -29,11 +29,13 @@ You will notice that in the main code some names of variables and functions/hand
    ```
    pip install -r requirements.txt
 3. Create a .env file in the root folder:
+   
    (you might need to type
    ```
    pip install python-dotenv
    ```
    in your terminal for it to work (if you haven't done it before))
+   
    Inside that file you might want to include lines like these:
    TELEGRAM_TOKEN="your-bot-token"
    GOOGLE_SHEETS_CREDENTIALS_PATH="yourCredentialsFile.json"
