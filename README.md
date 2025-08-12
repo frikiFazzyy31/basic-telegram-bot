@@ -37,9 +37,10 @@ You will notice that in the main code some names of variables and functions/hand
    in your terminal for it to work (if you haven't done it before))
    
    Inside that file you might want to include lines like these:
-   TELEGRAM_TOKEN="your-bot-token"
-   GOOGLE_SHEETS_CREDENTIALS_PATH="yourCredentialsFile.json"
-   GOOGLE_SHEETS_FILE_NAME="Sheet Name", etc.
+   
+   - TELEGRAM_TOKEN="your-bot-token"
+   - GOOGLE_SHEETS_CREDENTIALS_PATH="yourCredentialsFile.json"
+   - GOOGLE_SHEETS_FILE_NAME="Sheet Name", etc.
 5. Make sure your Google credentials file is downloaded from Google Cloud (here's a quick tutorial for this part: https://www.youtube.com/watch?v=brCkpzAD0gc PS: when he selects 'API Key' you should select 'Service account' instead, at least that's how I did it for this project and it works PS2: sorry, I don't know much about this language/environment yet for me to be able to explain it accurately, however, if you end up needing any help don't hesitate in reaching out!) and saved with the name credentials.json (or the name you would like it to have, just make sure it matches where it has to match)
 6. Run the bot:
    python theFileWhereYouHaveTheCodeOfTheBot.py
